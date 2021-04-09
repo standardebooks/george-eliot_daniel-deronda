@@ -81,7 +81,6 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
 }
 /* End full-page epigraphs */
 
@@ -106,6 +105,11 @@ footer{
 }
 
 /* for drama in epigraphs */
+
+[epub|type~="epigraph"] table td{
+	font-style: italic;
+}
+
 table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
 	margin: 1em auto;

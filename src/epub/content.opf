@@ -8,9 +8,9 @@
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">bkd</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">mdc</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
@@ -69,7 +69,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/George_Eliot</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79045512</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<meta property="role" refines="#author" scheme="se:role">ann</meta>
+		<meta property="se:role" refines="#author" scheme="se:role">ann</meta>
 		<dc:contributor id="artist">Stephen Pearce</dc:contributor>
 		<meta property="file-as" refines="#artist">Pearce, Stephen</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Stephen_Pearce</meta>
@@ -85,11 +85,12 @@
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://rightword.com.au/david.php</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -193,14 +194,8 @@
 		<itemref idref="dedication.xhtml"/>
 		<itemref idref="foreword.xhtml"/>
 		<itemref idref="epigraph.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="book-1.xhtml"/>
-		<itemref idref="book-2.xhtml"/>
-		<itemref idref="book-3.xhtml"/>
-		<itemref idref="book-4.xhtml"/>
-		<itemref idref="book-5.xhtml"/>
-		<itemref idref="book-6.xhtml"/>
-		<itemref idref="book-7.xhtml"/>
-		<itemref idref="book-8.xhtml"/>
 		<itemref idref="chapter-1.xhtml"/>
 		<itemref idref="chapter-2.xhtml"/>
 		<itemref idref="chapter-3.xhtml"/>
@@ -211,6 +206,7 @@
 		<itemref idref="chapter-8.xhtml"/>
 		<itemref idref="chapter-9.xhtml"/>
 		<itemref idref="chapter-10.xhtml"/>
+		<itemref idref="book-2.xhtml"/>
 		<itemref idref="chapter-11.xhtml"/>
 		<itemref idref="chapter-12.xhtml"/>
 		<itemref idref="chapter-13.xhtml"/>
@@ -219,6 +215,7 @@
 		<itemref idref="chapter-16.xhtml"/>
 		<itemref idref="chapter-17.xhtml"/>
 		<itemref idref="chapter-18.xhtml"/>
+		<itemref idref="book-3.xhtml"/>
 		<itemref idref="chapter-19.xhtml"/>
 		<itemref idref="chapter-20.xhtml"/>
 		<itemref idref="chapter-21.xhtml"/>
@@ -228,6 +225,7 @@
 		<itemref idref="chapter-25.xhtml"/>
 		<itemref idref="chapter-26.xhtml"/>
 		<itemref idref="chapter-27.xhtml"/>
+		<itemref idref="book-4.xhtml"/>
 		<itemref idref="chapter-28.xhtml"/>
 		<itemref idref="chapter-29.xhtml"/>
 		<itemref idref="chapter-30.xhtml"/>
@@ -235,12 +233,14 @@
 		<itemref idref="chapter-32.xhtml"/>
 		<itemref idref="chapter-33.xhtml"/>
 		<itemref idref="chapter-34.xhtml"/>
+		<itemref idref="book-5.xhtml"/>
 		<itemref idref="chapter-35.xhtml"/>
 		<itemref idref="chapter-36.xhtml"/>
 		<itemref idref="chapter-37.xhtml"/>
 		<itemref idref="chapter-38.xhtml"/>
 		<itemref idref="chapter-39.xhtml"/>
 		<itemref idref="chapter-40.xhtml"/>
+		<itemref idref="book-6.xhtml"/>
 		<itemref idref="chapter-41.xhtml"/>
 		<itemref idref="chapter-42.xhtml"/>
 		<itemref idref="chapter-43.xhtml"/>
@@ -250,6 +250,7 @@
 		<itemref idref="chapter-47.xhtml"/>
 		<itemref idref="chapter-48.xhtml"/>
 		<itemref idref="chapter-49.xhtml"/>
+		<itemref idref="book-7.xhtml"/>
 		<itemref idref="chapter-50.xhtml"/>
 		<itemref idref="chapter-51.xhtml"/>
 		<itemref idref="chapter-52.xhtml"/>
@@ -258,6 +259,7 @@
 		<itemref idref="chapter-55.xhtml"/>
 		<itemref idref="chapter-56.xhtml"/>
 		<itemref idref="chapter-57.xhtml"/>
+		<itemref idref="book-8.xhtml"/>
 		<itemref idref="chapter-58.xhtml"/>
 		<itemref idref="chapter-59.xhtml"/>
 		<itemref idref="chapter-60.xhtml"/>
@@ -271,7 +273,6 @@
 		<itemref idref="chapter-68.xhtml"/>
 		<itemref idref="chapter-69.xhtml"/>
 		<itemref idref="chapter-70.xhtml"/>
-		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>

@@ -44,37 +44,46 @@
 		<meta property="term" refines="#subject-4">sh2008106072</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008124297</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">An orphaned young man raised by an aristocrat as his nephew feels a moral obligation to assist others, and in doing so eventually discovers his true parentage and culture.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Daniel Deronda&lt;/i&gt;, published in 1876, was the last novel of Mary Ann Evans, who wrote under the name of &lt;a href="https://standardebooks.org/ebooks/george-eliot"&gt;George Eliot&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;The novel deals with two major characters whose lives intersect. One of these is a spoiled young woman called Gwendolen Harleth who makes an unwise marriage to escape impending poverty; the other is the titular character, Daniel Deronda, a wealthy young man who feels a mission to help those who are suffering.&lt;/p&gt;
+			&lt;p&gt;During her childhood Gwendolen’s family was well-off and she lived in comfort and was indulged and pampered. But the family’s fortune is lost because of an unwise investment, and she returns to a life of near-poverty, a change which she greatly resents both for herself and for her widowed mother. The only escape seems to be for her to marry a wealthy older man who has been courting her in a casual, unemotional way. This marriage turns out to be a terrible mistake.&lt;/p&gt;
+			&lt;p&gt;Daniel Deronda has been raised by Sir Hugo Mallinger as his nephew, but Daniel has never discovered his true parentage, thinking it likely that he is Sir Hugo’s natural son. This consciousness of his probable illegitimacy moves him to kindness and tolerance towards anyone who is suffering from disadvantage. One evening while rowing on the river Thames he spots a young woman about to leap into the water to drown herself. He persuades her instead to come with him for shelter to a family he knows. The young woman turns out to be Jewish, and through trying to help her find her lost family, Deronda comes into contact with Jewish culture and in particular with a man called Mordecai, who has a passionate vision for the future of the Jewish race and who sees in Daniel a kindred spirit.&lt;/p&gt;
+			&lt;p&gt;The lives of Gwendolen and Daniel come into contact at many points, and Daniel’s kindly nature moves him to try to offer her comfort and advice in her moments of distress. Unsurprisingly, Gwendolen misinterprets Daniel’s attentions to her, which leads to her further distress.&lt;/p&gt;
+			&lt;p&gt;In &lt;i&gt;Daniel Deronda&lt;/i&gt; Eliot demonstrates considerable sympathy towards the Jewish people, their culture, and their aspirations for a national homeland. At the time this was an unpopular and even controversial view. A foreword in this edition reproduces a letter Evans wrote to Harriet Beecher Stowe, defending her stance in this regard. Nevertheless, the novel was a success, and translated almost immediately into German and Dutch and it is considered to have had a positive influence on Zionist thinkers.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Daniel Deronda&lt;/i&gt; has been adapted into the form of films (the first in 1914), and into television series, most recently by the BBC in 2002, a series which won several awards.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/7469</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:source>https://archive.org/details/danielderond01elioiala</dc:source>
+		<dc:source>https://archive.org/details/danielderondaeli02elioiala</dc:source>
+		<dc:source>https://archive.org/details/danielderonda03elioiala</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Daniel_Deronda</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/george-eliot_daniel-deronda</meta>
 		<dc:creator id="author">George Eliot</dc:creator>
 		<meta property="file-as" refines="#author">Eliot, George</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/George_Eliot</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79045512</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<meta property="role" refines="#author" scheme="se:role">ann</meta>
+		<dc:contributor id="artist">Stephen Pearce</dc:contributor>
+		<meta property="file-as" refines="#artist">Pearce, Stephen</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Stephen_Pearce</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/nr93031047</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Anne Soulard</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Soulard, Anne</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Tiffany Vergon</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Vergon, Tiffany</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://rightword.com.au/david.php</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -173,7 +182,7 @@
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/epigraph.xhtml" id="epigraph.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/foreword.xhtml" id="foreword.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
@@ -182,10 +191,16 @@
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="dedication.xhtml"/>
-		<itemref idref="epigraph.xhtml"/>
 		<itemref idref="foreword.xhtml"/>
-		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="epigraph.xhtml"/>
 		<itemref idref="book-1.xhtml"/>
+		<itemref idref="book-2.xhtml"/>
+		<itemref idref="book-3.xhtml"/>
+		<itemref idref="book-4.xhtml"/>
+		<itemref idref="book-5.xhtml"/>
+		<itemref idref="book-6.xhtml"/>
+		<itemref idref="book-7.xhtml"/>
+		<itemref idref="book-8.xhtml"/>
 		<itemref idref="chapter-1.xhtml"/>
 		<itemref idref="chapter-2.xhtml"/>
 		<itemref idref="chapter-3.xhtml"/>
@@ -196,7 +211,6 @@
 		<itemref idref="chapter-8.xhtml"/>
 		<itemref idref="chapter-9.xhtml"/>
 		<itemref idref="chapter-10.xhtml"/>
-		<itemref idref="book-2.xhtml"/>
 		<itemref idref="chapter-11.xhtml"/>
 		<itemref idref="chapter-12.xhtml"/>
 		<itemref idref="chapter-13.xhtml"/>
@@ -205,7 +219,6 @@
 		<itemref idref="chapter-16.xhtml"/>
 		<itemref idref="chapter-17.xhtml"/>
 		<itemref idref="chapter-18.xhtml"/>
-		<itemref idref="book-3.xhtml"/>
 		<itemref idref="chapter-19.xhtml"/>
 		<itemref idref="chapter-20.xhtml"/>
 		<itemref idref="chapter-21.xhtml"/>
@@ -215,7 +228,6 @@
 		<itemref idref="chapter-25.xhtml"/>
 		<itemref idref="chapter-26.xhtml"/>
 		<itemref idref="chapter-27.xhtml"/>
-		<itemref idref="book-4.xhtml"/>
 		<itemref idref="chapter-28.xhtml"/>
 		<itemref idref="chapter-29.xhtml"/>
 		<itemref idref="chapter-30.xhtml"/>
@@ -223,14 +235,12 @@
 		<itemref idref="chapter-32.xhtml"/>
 		<itemref idref="chapter-33.xhtml"/>
 		<itemref idref="chapter-34.xhtml"/>
-		<itemref idref="book-5.xhtml"/>
 		<itemref idref="chapter-35.xhtml"/>
 		<itemref idref="chapter-36.xhtml"/>
 		<itemref idref="chapter-37.xhtml"/>
 		<itemref idref="chapter-38.xhtml"/>
 		<itemref idref="chapter-39.xhtml"/>
 		<itemref idref="chapter-40.xhtml"/>
-		<itemref idref="book-6.xhtml"/>
 		<itemref idref="chapter-41.xhtml"/>
 		<itemref idref="chapter-42.xhtml"/>
 		<itemref idref="chapter-43.xhtml"/>
@@ -240,7 +250,6 @@
 		<itemref idref="chapter-47.xhtml"/>
 		<itemref idref="chapter-48.xhtml"/>
 		<itemref idref="chapter-49.xhtml"/>
-		<itemref idref="book-7.xhtml"/>
 		<itemref idref="chapter-50.xhtml"/>
 		<itemref idref="chapter-51.xhtml"/>
 		<itemref idref="chapter-52.xhtml"/>
@@ -249,7 +258,6 @@
 		<itemref idref="chapter-55.xhtml"/>
 		<itemref idref="chapter-56.xhtml"/>
 		<itemref idref="chapter-57.xhtml"/>
-		<itemref idref="book-8.xhtml"/>
 		<itemref idref="chapter-58.xhtml"/>
 		<itemref idref="chapter-59.xhtml"/>
 		<itemref idref="chapter-60.xhtml"/>
@@ -263,6 +271,7 @@
 		<itemref idref="chapter-68.xhtml"/>
 		<itemref idref="chapter-69.xhtml"/>
 		<itemref idref="chapter-70.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>

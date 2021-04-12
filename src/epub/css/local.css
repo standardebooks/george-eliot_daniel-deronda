@@ -8,9 +8,6 @@ body [xml|lang]{
 
 header{
 	font-variant: small-caps;
-	text-align: center;
-	margin-bottom: 1em;
-	text-indent: 0;
 }
 
 /* All epigraphs */
@@ -105,9 +102,8 @@ footer{
 }
 
 /* for drama in epigraphs */
-
-[epub|type~="epigraph"] table td{
-	font-style: italic;
+table[epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
+	font-style: normal;
 }
 
 table[epub|type~="z3998:drama"]{
@@ -220,6 +216,10 @@ section[epub|type~="dedication"] > *{
 	}
 }
 /* End all dedications */
+
+section[epub|type~="dedication"] > p{
+	font-variant: small-caps;
+}
 
 q{
 	font-style: italic;

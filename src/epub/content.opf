@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/george-eliot/daniel-deronda</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-04-12T21:57:16Z</dc:date>
+		<meta property="dcterms:modified">2021-04-12T21:57:16Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -24,6 +24,7 @@
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
+		<meta property="schema:accessibilityFeature">unlocked</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
@@ -45,35 +46,34 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008124297</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">An orphaned young man raised by an aristocrat as his nephew feels a moral obligation to assist others, and in doing so eventually discovers his true parentage and culture.</dc:description>
+		<dc:description id="description">An orphaned young man raised as an aristocrat’s nephew feels a moral obligation to assist others, and in doing so eventually discovers his true parentage and culture.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Daniel Deronda&lt;/i&gt;, published in 1876, was the last novel of Mary Ann Evans, who wrote under the name of &lt;a href="https://standardebooks.org/ebooks/george-eliot"&gt;George Eliot&lt;/a&gt;.&lt;/p&gt;
-			&lt;p&gt;The novel deals with two major characters whose lives intersect. One of these is a spoiled young woman called Gwendolen Harleth who makes an unwise marriage to escape impending poverty; the other is the titular character, Daniel Deronda, a wealthy young man who feels a mission to help those who are suffering.&lt;/p&gt;
-			&lt;p&gt;During her childhood Gwendolen’s family was well-off and she lived in comfort and was indulged and pampered. But the family’s fortune is lost because of an unwise investment, and she returns to a life of near-poverty, a change which she greatly resents both for herself and for her widowed mother. The only escape seems to be for her to marry a wealthy older man who has been courting her in a casual, unemotional way. This marriage turns out to be a terrible mistake.&lt;/p&gt;
-			&lt;p&gt;Daniel Deronda has been raised by Sir Hugo Mallinger as his nephew, but Daniel has never discovered his true parentage, thinking it likely that he is Sir Hugo’s natural son. This consciousness of his probable illegitimacy moves him to kindness and tolerance towards anyone who is suffering from disadvantage. One evening while rowing on the river Thames he spots a young woman about to leap into the water to drown herself. He persuades her instead to come with him for shelter to a family he knows. The young woman turns out to be Jewish, and through trying to help her find her lost family, Deronda comes into contact with Jewish culture and in particular with a man called Mordecai, who has a passionate vision for the future of the Jewish race and who sees in Daniel a kindred spirit.&lt;/p&gt;
-			&lt;p&gt;The lives of Gwendolen and Daniel come into contact at many points, and Daniel’s kindly nature moves him to try to offer her comfort and advice in her moments of distress. Unsurprisingly, Gwendolen misinterprets Daniel’s attentions to her, which leads to her further distress.&lt;/p&gt;
-			&lt;p&gt;In &lt;i&gt;Daniel Deronda&lt;/i&gt; Eliot demonstrates considerable sympathy towards the Jewish people, their culture, and their aspirations for a national homeland. At the time this was an unpopular and even controversial view. A foreword in this edition reproduces a letter Evans wrote to Harriet Beecher Stowe, defending her stance in this regard. Nevertheless, the novel was a success, and translated almost immediately into German and Dutch and it is considered to have had a positive influence on Zionist thinkers.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Daniel Deronda&lt;/i&gt; has been adapted into the form of films (the first in 1914), and into television series, most recently by the BBC in 2002, a series which won several awards.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Daniel Deronda&lt;/i&gt;, published in 1876, was &lt;a href="https://standardebooks.org/ebooks/george-eliot"&gt;George Eliot&lt;/a&gt;’s last novel. It deals with two major characters whose lives intersect: One is a spoiled young woman named Gwendolen Harleth who makes an unwise marriage to escape impending poverty; the other is the titular character, Daniel Deronda, a wealthy young man who feels a mission to help the suffering.&lt;/p&gt;
+			&lt;p&gt;During her childhood Gwendolen’s family was well-off. She lived in comfort and was indulged and pampered. But the family’s fortune is lost through an unwise investment, and she returns to a life of near-poverty, a change which she greatly resents both for herself and for her widowed mother. The only escape seems to be for her to marry a wealthy older man who has been courting her in a casual, unemotional way. The marriage turns out to be a terrible mistake.&lt;/p&gt;
+			&lt;p&gt;Daniel Deronda has been raised by Sir Hugo Mallinger as his nephew, but Daniel has never discovered his true parentage, thinking it likely that he is Sir Hugo’s natural son. This consciousness of his probable illegitimacy moves him to kindness and tolerance towards anyone who is suffering from disadvantage. One evening, while rowing on the river Thames, he spots a young woman about to leap into the water to drown herself. He persuades her instead to come with him for shelter to a family he knows. The young woman turns out to be Jewish, and through his trying to help her find her lost family, Deronda comes into contact with Jewish culture--and in particular with a man named Mordecai, who has a passionate vision for the future of the Jewish race and who sees in Daniel a kindred spirit.&lt;/p&gt;
+			&lt;p&gt;The paths that Gwendolen and Daniel follow intersect often, and Daniel’s kindly nature moves him to try to offer her comfort and advice in her moments of distress. Unsurprisingly, Gwendolen misinterprets Daniel’s attentions.&lt;/p&gt;
+			&lt;p&gt;In &lt;i&gt;Daniel Deronda&lt;/i&gt; Eliot demonstrates considerable sympathy towards the Jewish people, their culture, and their aspirations for a national homeland. At the time this was an unpopular and even controversial view. A foreword in this edition reproduces a letter Evans wrote to Harriet Beecher Stowe, defending her stance in this regard. Nevertheless, the novel was a success, and was translated almost immediately into German and Dutch. It is considered to have had a positive influence on Zionist thinkers.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Daniel Deronda&lt;/i&gt; has been adapted both for film and television, with the 2002 B.B.C. series winning several awards.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/7469</dc:source>
 		<dc:source>https://archive.org/details/danielderond01elioiala</dc:source>
 		<dc:source>https://archive.org/details/danielderondaeli02elioiala</dc:source>
 		<dc:source>https://archive.org/details/danielderonda03elioiala</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">314283</meta>
+		<meta property="se:reading-ease.flesch">66.67</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Daniel_Deronda</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/george-eliot_daniel-deronda</meta>
 		<dc:creator id="author">George Eliot</dc:creator>
 		<meta property="file-as" refines="#author">Eliot, George</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/George_Eliot</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79045512</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79045512</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="se:role" refines="#author" scheme="se:role">ann</meta>
 		<dc:contributor id="artist">Stephen Pearce</dc:contributor>
 		<meta property="file-as" refines="#artist">Pearce, Stephen</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Stephen_Pearce</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/nr93031047</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr93031047</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Anne Soulard</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Soulard, Anne</meta>
@@ -91,6 +91,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>

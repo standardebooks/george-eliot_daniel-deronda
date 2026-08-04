@@ -52,7 +52,7 @@
 		<meta id="collection-2" property="belongs-to-collection">The Guardian’s 100 Greatest Novels of All Time (2003)</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">28</meta>
-		<dc:abstract>An orphaned young man raised as an aristocrat’s nephew feels a moral obligation to assist others, and in doing so eventually discovers his true parentage and culture.</dc:abstract>
+		<meta property="schema:abstract">An orphaned young man raised as an aristocrat’s nephew feels a moral obligation to assist others, and in doing so eventually discovers his true parentage and culture.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Daniel Deronda&lt;/i&gt;, published in 1876, was &lt;a href="https://standardebooks.org/ebooks/george-eliot"&gt;George Eliot’s&lt;/a&gt; last novel. It deals with two major characters whose lives intersect: One is a spoiled young woman named Gwendolen Harleth who makes an unwise marriage to escape impending poverty; the other is the titular character, Daniel Deronda, a wealthy young man who feels a mission to help the suffering.&lt;/p&gt;
 			&lt;p&gt;During her childhood Gwendolen’s family was well-off. She lived in comfort and was indulged and pampered. But the family’s fortune is lost through an unwise investment, and she returns to a life of near-poverty, a change which she greatly resents both for herself and for her widowed mother. The only escape seems to be for her to marry a wealthy older man who has been courting her in a casual, unemotional way. The marriage turns out to be a terrible mistake.&lt;/p&gt;

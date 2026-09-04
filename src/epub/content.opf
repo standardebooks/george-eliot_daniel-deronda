@@ -31,10 +31,10 @@
 		<dc:title id="title">Daniel Deronda</dc:title>
 		<meta property="file-as" refines="#title">Daniel Deronda</meta>
 		<dc:subject id="subject-1">Didactic fiction</dc:subject>
-		<dc:subject id="subject-2">England -- Fiction</dc:subject>
+		<dc:subject id="subject-2">England--Fiction</dc:subject>
 		<dc:subject id="subject-3">Jewish fiction</dc:subject>
-		<dc:subject id="subject-4">Jews -- England -- Fiction</dc:subject>
-		<dc:subject id="subject-5">Zionists -- Fiction</dc:subject>
+		<dc:subject id="subject-4">Jews--England--Fiction</dc:subject>
+		<dc:subject id="subject-5">Zionists--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85037714</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
